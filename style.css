@@ -1,0 +1,721 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header{
+    margin-top: 20px;
+}
+.logo{
+    width:50px;
+    margin-left:50px;
+    margin-top:10px;
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 100px;
+    
+    
+}
+
+.navbar li{
+    list-style:none;
+}
+.navbar li a{
+    
+    text-decoration: none;
+    
+    color:#06C167;
+}
+.header-left{
+    
+    display:flex;
+    gap:400px;
+    /* flex-direction: row-reverse; */
+    background-color: rgb(255, 255, 255);
+    padding:10px;
+    margin-bottom: 20px;
+    margin-top:40px;
+    margin-left:50px;
+    
+}
+.header-left-upper h1{
+    margin-bottom: 15px;
+    /* color:red; */
+}
+
+
+
+.header-left-button {
+            display: flex ;
+            background-color: #06C167;
+            color: white ;
+            border: none ;
+            padding: 10px 15px ;
+            border-radius: 5px;
+            cursor: pointer;
+            gap: 8px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+.image-container{
+    position: relative;
+    display: inline-block;
+}
+.girl{
+    height:500px;
+}
+
+.side{
+    width:150px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.header-bottom img{
+    width:150px;
+    margin-left: 50px;
+    padding:20px;
+    /* background-color: blue; */
+}
+.discount{
+    display:flex;
+    margin-left:50px;
+    gap:80px;
+    
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid whitesmoke;
+}
+.discount-1{
+    display:flex;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    gap:10px;
+    
+    /* display: inline-block; */
+}
+ .discount-1-para{
+   margin-left: 10px;
+   margin-top: 20px;
+   text-align: center;
+} 
+.benefit{
+     display: flex;
+     /* justify-content:space-between; */
+     margin-top: 30px;
+     margin-left: 30px;
+     gap:200px;
+     margin-bottom: 150px;
+     /* border:1px solid whitesmoke; */
+     
+ }
+.benefit img{
+    width:445px;
+    border-radius: 10%;
+    box-shadow: 8px 4px 8px 8px rgba(0,0,0,0.1);
+}
+
+.our-benefit{
+    padding:5px;
+    margin-top: 40px;
+}
+.our-benefit h2{
+    font-size:60px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.our-benefit p:first-child{
+   color:green;
+   font-size: 10px;
+}
+.our-benefit p{
+    display:flex;
+    gap:10px;
+}
+.material-symbols-outlined{
+    color:#06C167;
+    font-weight: bolder;
+    
+    
+}
+/* .our-benefit p{
+   position: absolute;
+} */
+.stars{
+    display:flex;
+    padding-left: 50px;
+    gap:400px;
+    /* justify-content: flex-end; */
+    
+}
+.stars p{
+    font-size: 10px;
+    
+}
+.stars img{
+    width:445px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.1);
+}
+.our-stars h1{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.our-starsB{
+    display:flex;
+    gap:40px;
+}
+.our-stars-number p:first-child{
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    color:#06C167;
+    margin-bottom: 10px;
+    
+}
+.our-stars-number p:last-child{
+    font-size:20px;
+    font-weight: bolder;
+    /* color:#06C167; */
+    /* margin-bottom: 10px; */
+    
+}
+.stars button{
+    margin-top: 20px;
+    padding:10px;
+    /* margin-left: 10px; */
+    display:flex;
+   align-items:center;   /* vertical center */
+   gap:8px; 
+   background-color: #06C167;
+   color:white;
+   border:none;
+   border-radius: 5px;
+}
+.material-symbols-outlined{
+    color:white;
+}
+.features{
+    margin-top: 30px;
+    margin-left:50px;
+    margin-bottom: 20px;
+}
+.features h1 ,
+.features p{
+     text-align: center;
+
+}
+.food-1{
+    display:flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.food-1A{
+    display:flex;
+    flex:1;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 20px;
+}
+.food-1A img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.food-1Aa{
+    margin-top: 0;
+    padding: 0;
+} 
+.food-1Aa button{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgb(201, 244, 230);
+    color:#06C167;
+    border:none;
+    padding:8px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.material-symbols-outlined{
+    color:#06C167;
+}
+
+.food-1B{
+    display:flex;
+    flex:1;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 20px;
+}
+.food-1B img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.food-1Bb{
+    margin-top: 0;
+    padding: 0;
+} 
+.food-1Bb button{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgb(201, 244, 230);
+    color:#06C167;
+    border:none;
+    padding:8px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.material-symbols-outlined{
+    color:#06C167;
+}
+.food-2{
+    display:flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.food-2A{
+    display:flex;
+    flex:1;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 20px;
+}
+.food-2A img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.food-2Aa{
+    margin-top: 0;
+    padding: 0;
+} 
+.food-2Aa button{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgb(201, 244, 230);
+    color:#06C167;
+    border:none;
+    padding:8px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.material-symbols-outlined{
+    color:#06C167;
+}
+
+.food-2B{
+    display:flex;
+    flex:1;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    align-items: center;
+    gap: 20px;
+}
+.food-2B img{
+    width: 292.5px;
+    height: 292.5px;
+    /* angle: 0 deg; */
+    opacity: 1;
+    top: 3006px;
+    left: 720px;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 20px 5px rgba(0,0,0,0.1);
+
+} 
+.food-2Bb{
+    margin-top: 20px;
+    padding: 20px;
+} 
+.food-2Bb button{
+    margin-top: 20px;
+    display:flex;
+    background-color: rgb(201, 244, 230);
+    color:#06C167;
+    border:none;
+    padding:8px;
+    padding-left: 5px;
+    border-radius: 8px;
+}
+.material-symbols-outlined{
+    color:#06C167;
+}
+.populer h2
+{
+    margin-left: 50px;
+    padding:10px;
+}
+.populer p{
+    margin-left: 50px;
+    padding:10px;
+}
+.populer-product img{
+    width:190px;
+}
+.populer-product{
+    display:flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-left:50px;
+    /* border:2px solid #06C167; */
+}
+.populer-product-section{
+    border:1px solid #06C167;
+    padding:10px;
+    align-items: center;
+}
+.populer-product-section button{
+    align-items: center;
+    display:flex;
+    padding:10px;
+    margin-left: 50px;
+    color:#06C167;
+    border:1px solid #06C167;
+}
+.veggie-food{
+    background-image:url(./image/footer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.veggie-food h1{
+    color:white;
+}
+.veggie-food button{
+    background-color: #06C167;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius: 5px;
+    display:flex;
+    /* gap:150px; */
+}
+.material-symbols-outlined{
+    color:white;
+}
+.foodies{
+    display:flex;
+}
+.foodies-section{
+    margin: 50px;
+    padding:10px;
+    white-space: nowrap;
+    
+}
+.email{
+    background-color: #06C167;
+    color:white;
+    border:none;
+    padding:5px;
+    border-radius: 5px;
+    /* padding:10px; */
+}
+.copyright{
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet and smaller screens */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        margin-right: 20px;
+    }
+    
+    .logo {
+        margin-left: 20px;
+    }
+    
+    /* Header Section */
+    .header-left {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .girl {
+        height: 300px;
+    }
+    
+    .side {
+        width: 100px;
+    }
+    
+    .header-bottom {
+        text-align: center;
+    }
+    
+    .header-bottom img {
+        width: 100px;
+        margin-left: 10px;
+        padding: 10px;
+    }
+    
+    /* Discount Section */
+    .discount {
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 20px;
+    }
+    
+    /* Benefit Section */
+    .benefit {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .benefit img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    /* Stars Section */
+    .stars {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .stars img {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .our-starsB {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    /* Food Section */
+    .food-1, .food-2 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .food-1A, .food-1B, .food-2A, .food-2B {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    /* Popular Products */
+    .populer-product {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .populer-product-section {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    /* Footer */
+    .foodies {
+        flex-direction: column;
+        gap: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .foodies-section {
+        width: 100%;
+    }
+    
+    .veggie-food {
+        padding: 50px 20px;
+        min-height: 300px;
+    }
+    
+    .veggie-food h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+/* Mobile phones */
+@media screen and (max-width: 480px) {
+    /* Navigation */
+    .navbar {
+        gap: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    .logo {
+        width: 40px;
+        margin-left: 10px;
+    }
+    
+    /* Header Section */
+    .header-left {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .header-left-upper h1 {
+        font-size: 1.5rem;
+    }
+    
+    .header-left-upper p {
+        font-size: 14px;
+    }
+    
+    .girl {
+        height: 200px;
+    }
+    
+    .side {
+        width: 80px;
+    }
+    
+    .header-bottom img {
+        width: 80px;
+        margin-left: 5px;
+        padding: 5px;
+    }
+    
+    /* Discount Section */
+    .discount {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .discount-1 {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    /* Text sizes */
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    /* Benefit Section */
+    .benefit {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .benefit img {
+        max-width: 250px;
+    }
+    
+    /* Stars Section */
+    .stars {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .stars img {
+        max-width: 250px;
+    }
+    
+    .our-stars h1 {
+        font-size: 1.3rem;
+    }
+    
+    /* Food Section */
+    .food-1, .food-2 {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .food-1A img, .food-1B img, .food-2A img, .food-2B img {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    /* Popular Products */
+    .populer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .populer-product {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .populer-product-section {
+        max-width: 250px;
+    }
+    
+    .populer-product img {
+        width: 150px;
+    }
+    
+    /* Footer */
+    .foodies {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
+    .veggie-food {
+        padding: 30px 10px;
+        min-height: 250px;
+    }
+    
+    .veggie-food h1 {
+        font-size: 1.2rem;
+    }
+    
+    button {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
